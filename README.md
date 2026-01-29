@@ -6,7 +6,7 @@ Welcome to my repository for the **Introduction to Computational Linguistics** c
 ## 📌 Project Overview
 The course focuses on the intersection of language and technology, covering everything from fundamental linguistic theories to modern machine learning applications in Natural Language Processing (NLP).
 
-* **Course Code:** 2209672
+* **Course Code:** 2209372
 * **Semester:** 2nd semester, 2025
 * **Tools Used:** Python, NLTK, PyThaiNLP, Scikit-learn, Typhoon
 
