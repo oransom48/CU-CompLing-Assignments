@@ -3,7 +3,6 @@ import sys
 import pandas as pd
 import math as m
 import nltk
-import pythainlp
 
 class TextClassifier:
 
@@ -62,4 +61,7 @@ if __name__ == '__main__':
         sys.exit(0)
     model_file_name = sys.argv[1]
     model = TextClassifier(model_file_name)
-    print(model.classify('I am rich and beautiful. I like to eat good food.'))
+    print(model.get_all_possible_labels())
+    print(model.get_all_possible_features())
+    print(model.compute_probability('I hate dust'))
+    print(model.classify('I hate dust'))
